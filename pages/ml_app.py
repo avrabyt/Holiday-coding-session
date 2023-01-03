@@ -4,6 +4,8 @@ from sklearn.datasets import load_breast_cancer
 import pandas as pd
 import seaborn as sns
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 # Load the Breast Cancer dataset
 data = load_breast_cancer()
 X = data.data
